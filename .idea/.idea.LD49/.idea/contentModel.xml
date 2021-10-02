@@ -31,7 +31,11 @@
             <e p="Behaviour.cs" t="Include" />
           </e>
           <e p="DebugLog.cs" t="Include" />
+          <e p="MouseScr.cs" t="Include" />
+          <e p="MoveRobScr.cs" t="Include" />
           <e p="Robot.cs" t="Include" />
+          <e p="RobotSpownS.cs" t="Include" />
+          <e p="Spown.cs" t="Include" />
           <e p="VisibilityArea.cs" t="Include" />
           <e p="VisibilityRobot.cs" t="Include" />
         </e>
