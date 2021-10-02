@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 
@@ -19,7 +20,7 @@ public class MoveRobScr : MonoBehaviour
     public void Move (Vector3 finPos)
     {
         float timeMove = CountTime(finPos - transform.position);
-        //rigid.DOMove(finPos, timeMove);
+        rigid.DOMove(finPos, timeMove);
     }
 
     float CountTime(Vector3 deltaPos)

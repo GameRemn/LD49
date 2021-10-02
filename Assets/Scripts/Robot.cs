@@ -5,7 +5,7 @@ using ScriptableObjectArchitecture;
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class Robot : MonoBehaviour
+public class Robot : MonoBehaviour
 {
     public GameEventBase onEnableEvent;
     public GameEventBase onDisableEvent;
