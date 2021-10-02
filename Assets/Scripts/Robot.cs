@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using ScriptableObjectArchitecture;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Networking;
 
 public class Robot : MonoBehaviour
 {
     public GameEventBase onEnableEvent;
     public GameEventBase onDisableEvent;
     public UnityEvent<Fraction> onFractionChange;
-    public Robot goal;
     public Fraction Fraction
     {
         get => _fraction;
@@ -19,14 +19,22 @@ public class Robot : MonoBehaviour
 
     [SerializeField]private Fraction _fraction;
 
+    public BehaviourType BehaviourType
+    {
+        get => _behaviourType;
+        set => _behaviourType = value;
+    }
+
+    [SerializeField]private BehaviourType _behaviourType;
+
     public void OnEnable()
     {
-        onEnableEvent.Raise();
+        onEnableEvent?.Raise();
     }
 
     public void OnDisable()
     {
-        onDisableEvent.Raise();
+        onDisableEvent?.Raise();
     }
 
     public void Anigilation()

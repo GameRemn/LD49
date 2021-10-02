@@ -29,6 +29,7 @@
         <e p="Scripts" t="Include">
           <e p="Behaviour" t="Include">
             <e p="VisibilityReaction.cs" t="Include" />
+            <e p="VisibilityReactionRobot2.cs" t="Include" />
           </e>
           <e p="DebugLog.cs" t="Include" />
           <e p="MouseScr.cs" t="Include" />

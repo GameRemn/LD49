@@ -4,8 +4,10 @@ using UnityEngine;
 
 public abstract class VisibilityReaction : MonoBehaviour
 {
-    [SerializeField]private List<GameObject> goals;
+    public Robot robot;
+    [SerializeField]protected List<GameObject> goals;
     public MoveRobScr move;
-    public abstract void SetGoal(GameObject _goal);
+    public abstract void AddGoal(GameObject _goal);
+    public abstract void RemoveGoal(GameObject _goal);
     public abstract void UpdateMoveTarget();
 }
