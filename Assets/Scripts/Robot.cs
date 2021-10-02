@@ -10,13 +10,14 @@ public abstract class Robot : MonoBehaviour
     public GameEventBase onEnableEvent;
     public GameEventBase onDisableEvent;
     public UnityEvent<Fraction> onFractionChange;
+    public Robot goal;
     public Fraction Fraction
     {
         get => _fraction;
         set => _fraction = value;
     }
 
-    private Fraction _fraction;
+    [SerializeField]private Fraction _fraction;
 
     public void OnEnable()
     {
@@ -39,4 +40,10 @@ public enum Fraction
     Red,
     Blue,
     Neutral
+}
+
+public enum BehaviourType
+{
+    Aggressive,
+    Peaceful
 }
