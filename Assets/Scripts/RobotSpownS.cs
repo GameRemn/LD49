@@ -7,6 +7,6 @@ using UnityEngine.UI;
 public class RobotSpownS
 {
     public GameObject robotObj;
-    public SpriteRenderer robotSprite;
+    public Sprite robotSprite;
     public AudioSource robotAud;
 }
