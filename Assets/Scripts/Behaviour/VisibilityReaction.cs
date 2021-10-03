@@ -5,9 +5,15 @@ using UnityEngine;
 public abstract class VisibilityReaction : MonoBehaviour
 {
     public Robot robot;
-    [SerializeField]protected List<GameObject> goals;
+    public List<GameObject> goals;
     public MoveRobScr move;
+    
     public abstract void AddGoal(GameObject _goal);
-    public abstract void RemoveGoal(GameObject _goal);
+
+    public void RemoveGoal(GameObject _goal)
+    {
+        if (goals.Contains(_goal))
+            goals.Remove(_goal);
+    }
     public abstract void UpdateMoveTarget();
 }

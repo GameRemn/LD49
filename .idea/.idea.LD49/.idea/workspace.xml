@@ -21,10 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6f7ad3dc-467e-4d5d-a9d9-0ecdb5386369" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Robot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VisibilityArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VisibilityArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Robots/1/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Robots/1/1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Robots/1/1_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Robots/1/1_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,43 +43,123 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA496B8C-9345-4B2F-9B99-24292C19379F/9f/cb77dc09/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseScr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveRobScr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VisibilityArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot6.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Area/CollisionArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Area/TriggerArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot7.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot8.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot6.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot5.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot7.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/VisibilityArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmptyRpbot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveRobScr.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/Behaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VisibilityRobot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReaction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VisibilityArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Area/TriggerArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot8.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReaction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot4.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Area/CollisionArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot6.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot6.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot5.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot4.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot5.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/VisibilityReactionRobot7.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviour/CollisionReactionRobot7.cs" />
       </list>
     </option>
+  </component>
+  <component name="ProjectId" id="1yzDOrlb8oAnryYuxZkQ5BvsJ9G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f7ad3dc-467e-4d5d-a9d9-0ecdb5386369" name="Default Changelist" comment="" />
+      <created>1633245496271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633245496271</updated>
+      <workItem from="1633245533441" duration="38171000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2714" y="306" key="RiderGenerateDialog" timestamp="1633201162327">
-      <screen x="1920" y="70" width="1920" height="1040" />
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1633289716130">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="794" y="236" key="RiderGenerateDialog/1920.70.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633289716130" />
     <state x="2714" y="306" key="RiderGenerateDialog/1920.70.1920.1040/0.0.1920.1040@1920.70.1920.1040" timestamp="1633201162327" />
   </component>
 </project>

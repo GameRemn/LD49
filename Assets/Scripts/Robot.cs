@@ -39,6 +39,7 @@ public class Robot : MonoBehaviour
 
     public void Anigilation()
     {
+        gameObject.SetActive(false);
         Destroy(gameObject);
     }
 }

@@ -4,17 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class VisibilityArea : MonoBehaviour
+public class TriggerArea : MonoBehaviour
 {
     public UnityEvent<GameObject> onTriggerEnterEvent;
     public UnityEvent<GameObject> onTriggerExitEvent;
-    public List<GameObject> visibilityObjects;
+    public List<GameObject> triggerObjects;
     public void OnTriggerEnter2D(Collider2D other)
     {
         var otherObj = other.gameObject;
-        if (!visibilityObjects.Contains(otherObj))
+        if (!triggerObjects.Contains(otherObj))
         {
-            visibilityObjects.Add(otherObj);
+            triggerObjects.Add(otherObj);
             onTriggerEnterEvent?.Invoke(otherObj);
         }
     }
@@ -22,9 +22,9 @@ public class VisibilityArea : MonoBehaviour
     public void OnTriggerExit2D(Collider2D other)
     {
         var otherObj = other.gameObject;
-        if (visibilityObjects.Contains(otherObj))
+        if (triggerObjects.Contains(otherObj))
         {
-            visibilityObjects.Remove(otherObj);
+            triggerObjects.Remove(otherObj);
             onTriggerExitEvent?.Invoke(otherObj);
         }
     }
