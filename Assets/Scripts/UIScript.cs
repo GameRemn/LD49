@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class UIScript : MonoBehaviour
 {
-    public void P()
+    //public AudioSource Clic;
+    public void SliderSettings()
     {
         
     }
