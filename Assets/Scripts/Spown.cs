@@ -5,6 +5,7 @@ public class Spown : MonoBehaviour
 {
     public List<RobotSpownS> robot;
     int nomer;
+    GameObject movepast;////////////////////////////test
     void Start()
     {
         CreatRobIm();
@@ -12,6 +13,7 @@ public class Spown : MonoBehaviour
     void CreatRobIm()
     {
         nomer = Random.Range(0, robot.Count);
+        Debug.Log(MouseScr.mouseScr.t);
         MouseScr.mouseScr.SpriteV(robot[nomer].robotSprite);
         Debug.Log($"nomer: {nomer}");
     }
@@ -23,14 +25,19 @@ public class Spown : MonoBehaviour
         {
             CreatRobot(MsPos);
             CreatRobIm();
-            Debug.Log("GetMouseButtonDown");
+            Debug.Log("GetMouseButtonDown0");
+        }
+        if (Input.GetMouseButtonDown(1))////////////////////////////test
+        {
+            movepast.GetComponent<MoveRobScr>().Move(MsPos);
+            Debug.Log("GetMouseButtonDown1");
         }
         MouseScr.mouseScr.FollowMouse(MsPos);
     }
     
     void CreatRobot(Vector3 startPos)
     {
-        Instantiate(robot[nomer].robotObj, startPos, Quaternion.identity);
+        movepast=Instantiate(robot[nomer].robotObj, startPos, Quaternion.identity);
     }
 
 

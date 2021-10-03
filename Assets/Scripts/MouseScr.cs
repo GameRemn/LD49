@@ -6,8 +6,8 @@ public class MouseScr : MonoBehaviour
 {
     SpriteRenderer SpriteMouse;
     public static MouseScr mouseScr;
-
-    private void Awake()
+    public int t = 5;//////////////////////////////////////////////
+        private void Awake()
     {
         mouseScr = this;
         SpriteMouse =GetComponent<SpriteRenderer>();
@@ -18,8 +18,8 @@ public class MouseScr : MonoBehaviour
         SpriteMouse.transform.position = MsPos;
     }
 
-    public void SpriteV(SpriteRenderer robotImage)
+    public void SpriteV(Sprite robotImage)
     {
-        SpriteMouse = robotImage;
+        SpriteMouse.sprite= robotImage;
     }
 }
