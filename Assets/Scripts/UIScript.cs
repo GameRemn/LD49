@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class UIScript : MonoBehaviour
 {
-    //public AudioSource Clic;
-    public void SliderSettings()
+    public List<AudioSource> batAud1;
+    public void SliderSettings(float value)
     {
         
     }
-    void Update()
+    public void RandomAud()
     {
-        
+        int i = Random.Range(0, batAud1.Count);
+        batAud1[i].Play();
     }
 }
