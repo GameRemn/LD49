@@ -9,18 +9,24 @@ public class MoveRobScr : MonoBehaviour
     public float speed;    
     [SerializeField]
     private Animator anim;
+    public Tweener tweener;
 
     private Rigidbody2D rigid;
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
+
     }
 
     public void Move (Vector3 finPos)
     {
         float timeMove = CountTime(finPos - transform.position);
-        rigid.DOMove(finPos, timeMove);
+        if (tweener !=null)
+        {
+            DOTween.Kill(tweener);
+        }
+        tweener=rigid.DOMove(finPos, timeMove);
     }
 
     float CountTime(Vector3 deltaPos)
