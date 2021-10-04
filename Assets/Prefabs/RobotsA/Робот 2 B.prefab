@@ -391,7 +391,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.08
+  m_Radius: 0.1
 --- !u!50 &2338513394273149802
 Rigidbody2D:
   serializedVersion: 4
@@ -428,7 +428,7 @@ MonoBehaviour:
   robot: {fileID: 2338513394273149780}
   goals: []
   move: {fileID: 2338513394273149800}
-  distance: 6
+  distance: 9
 --- !u!114 &2338513394273149800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,7 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c89163b9bd88847b484c2fd289cc57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 15
   anim: {fileID: 0}
 --- !u!1 &2338513394937580282
 GameObject:
@@ -491,7 +491,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.8
 --- !u!114 &2338513394937580260
 MonoBehaviour:
   m_ObjectHideFlags: 0
