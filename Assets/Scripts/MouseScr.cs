@@ -6,8 +6,12 @@ public class MouseScr : MonoBehaviour
 {
     SpriteRenderer SpriteMouse;
     public static MouseScr mouseScr;
-    public int t = 5;//////////////////////////////////////////////
-        private void Awake()
+    private void Update()
+    {
+        Vector3 MsPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        MsPos.z = 0;
+    }
+    private void Awake()
     {
         mouseScr = this;
         SpriteMouse =GetComponent<SpriteRenderer>();

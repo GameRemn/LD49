@@ -13,18 +13,24 @@ public class Spown : MonoBehaviour
     void CreatRobIm()
     {
         nomer = Random.Range(0, robot.Count);
-        Debug.Log(MouseScr.mouseScr.t);
         MouseScr.mouseScr.SpriteV(robot[nomer].robotSprite);
         Debug.Log($"nomer: {nomer}");
     }
     void Update()
     {
-        Vector3 MsPos = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
-        MsPos.z = 0;        
+
+
+        RaycastHit ray;
+
         if (Input.GetMouseButtonDown(0))
         {
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out ray))
+            {
+                Vector3 MsPos = ray.point;
             CreatRobot(MsPos);
             CreatRobIm();
+            }
+
             Debug.Log("GetMouseButtonDown0");
         }
         if (Input.GetMouseButtonDown(1))////////////////////////////test
@@ -32,9 +38,9 @@ public class Spown : MonoBehaviour
             movepast.GetComponent<MoveRobScr>().Move(MsPos);
             Debug.Log("GetMouseButtonDown1");
         }
-        MouseScr.mouseScr.FollowMouse(MsPos);
     }
     
+
     void CreatRobot(Vector3 startPos)
     {
         movepast=Instantiate(robot[nomer].robotObj, startPos, Quaternion.identity);
