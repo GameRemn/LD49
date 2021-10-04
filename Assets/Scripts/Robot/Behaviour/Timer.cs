@@ -23,13 +23,11 @@ public class Timer : MonoBehaviour
 
     public void StopTimer()
     {
-        Debug.Log("Stop");
         StopCoroutine(timer);
     }
 
     IEnumerator EventTimer(float _delay, bool _loop)
     {
-        //Debug.Log("Dont stop");
         if (_loop)
         {
             while (_loop)

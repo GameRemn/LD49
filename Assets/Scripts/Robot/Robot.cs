@@ -29,11 +29,25 @@ public class Robot : MonoBehaviour
 
     public void OnEnable()
     {
+        RobotsCounter.Instance.AddRobotCount(1);
+        if(_fraction == Fraction.Blue)
+            RobotsCounter.Instance.AddBlueRobotCount(1);
+        else if(_fraction == Fraction.Red)
+            RobotsCounter.Instance.AddRedRobotCount(1);
+        else if(_fraction == Fraction.Neutral)
+            RobotsCounter.Instance.AddWildRobotsCount(1);
         onEnableEvent?.Raise();
     }
 
     public void OnDisable()
     {
+        RobotsCounter.Instance.AddRobotCount(-1);
+        if(_fraction == Fraction.Blue)
+            RobotsCounter.Instance.AddBlueRobotCount(-1);
+        else if(_fraction == Fraction.Red)
+            RobotsCounter.Instance.AddRedRobotCount(-1);
+        else if(_fraction == Fraction.Neutral)
+            RobotsCounter.Instance.AddWildRobotsCount(-1);
         onDisableEvent?.Raise();
     }
 

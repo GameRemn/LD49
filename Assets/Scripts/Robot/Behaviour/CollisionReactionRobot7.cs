@@ -15,14 +15,13 @@ public class CollisionReactionRobot7 : MonoBehaviour
             var goalRobot = goal.GetComponent<Robot>();
             if (goalRobot && !visibilityReactionRobot7.wait)
             {
+                goalRobot.gameObject.SetActive(false);
                 if (goalRobot.Fraction == Fraction.Blue)
                     goalRobot.Fraction = Fraction.Red;
                 else if (goalRobot.Fraction == Fraction.Red)
                 {
                     goalRobot.Fraction = Fraction.Blue;
                 }
-
-                goalRobot.gameObject.SetActive(false);
                 goalRobot.gameObject.SetActive(true);
                 visibilityReactionRobot7.memory.Add(goal);
                 visibilityReactionRobot7.wait = true;
