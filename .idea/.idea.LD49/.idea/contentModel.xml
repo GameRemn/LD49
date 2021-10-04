@@ -39,6 +39,7 @@
           <e p="Patterns" t="Include">
             <e p="Singleton.cs" t="Include" />
           </e>
+          <e p="Pause.cs" t="Include" />
           <e p="Raycast" t="Include">
             <e p="CheckRayTag.cs" t="Include" />
             <e p="MouseRaycast3D.cs" t="Include" />
