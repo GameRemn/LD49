@@ -32,6 +32,7 @@
             <e p="TriggerArea.cs" t="Include" />
           </e>
           <e p="DebugLog.cs" t="Include" />
+          <e p="DestroySelf.cs" t="Include" />
           <e p="GameSceneMusicManager.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="MoveRobScr.cs" t="Include" />

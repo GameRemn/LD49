@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: efce1faf600fe46c5bb068de16198a54
+  - enabled: 1
     path: Assets/Scenes/VladScane.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/win.unity
+    guid: 04203634da6ee46508fa9e410261de2b
   m_configObjects: {}
