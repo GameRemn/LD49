@@ -32,6 +32,7 @@
             <e p="TriggerArea.cs" t="Include" />
           </e>
           <e p="DebugLog.cs" t="Include" />
+          <e p="GameSceneMusicManager.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="MoveRobScr.cs" t="Include" />
           <e p="ObjectSpawn.cs" t="Include" />
@@ -63,10 +64,10 @@
             </e>
             <e p="Robot.cs" t="Include" />
             <e p="RobotInfo.cs" t="Include" />
-            <e p="RobotInfoCreater.cs" t="Include" />
             <e p="RobotInfoCreator.cs" t="Include" />
             <e p="RobotInfoList.cs" t="Include" />
           </e>
+          <e p="RobotsCounter.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
           <e p="SliderScript.cs" t="Include" />
           <e p="Spown.cs" t="Include" />
