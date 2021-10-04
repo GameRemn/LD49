@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 432376056942419143}
   - component: {fileID: 432376056942419142}
   - component: {fileID: 432376056942419141}
+  - component: {fileID: 387626045170062661}
   m_Layer: 0
   m_Name: "\u0420\u043E\u0431\u043E\u0442 8 A"
   m_TagString: Untagged
@@ -151,6 +152,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 387626045170062661}
+        m_TargetAssemblyTypeName: ObjectSpawn, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onCollisionExitEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -168,6 +181,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visibilityReaction: {fileID: 432376056942419136}
+--- !u!114 &387626045170062661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432376056942419140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be69064d2a6c01a41a2c5db77969c933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObj: {fileID: 6100701889578492669, guid: 6537ce8a28d3fc2448c1a938830f1f01, type: 3}
 --- !u!1 &432376058243748751
 GameObject:
   m_ObjectHideFlags: 0
