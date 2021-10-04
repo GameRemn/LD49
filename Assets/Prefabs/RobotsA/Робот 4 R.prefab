@@ -471,7 +471,7 @@ MonoBehaviour:
   onFractionChange:
     m_PersistentCalls:
       m_Calls: []
-  _fraction: 1
+  _fraction: 0
   _behaviourType: 1
 --- !u!58 &9063387025643290646
 CircleCollider2D:

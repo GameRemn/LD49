@@ -58,7 +58,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _fraction: 2
-  _behaviourType: 0
+  _behaviourType: 1
 --- !u!58 &5257597024535357653
 CircleCollider2D:
   m_ObjectHideFlags: 0

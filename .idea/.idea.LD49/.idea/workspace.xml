@@ -22,7 +22,13 @@
     <list default="true" id="6f7ad3dc-467e-4d5d-a9d9-0ecdb5386369" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 2 R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 2 R.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 3 R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 3 R.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 4 R.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 4 R.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 6 A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 6 A.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/CollisionReactionRobot7.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/CollisionReactionRobot7.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Robot/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Robot/Robot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/VisibilityReactionRobot7.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/RobotInfoList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SO Architecture/Events/Game Events/AudioClipGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,11 +48,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/RobotInfoCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA496B8C-9345-4B2F-9B99-24292C19379F/9f/cb77dc09/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveRobScr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSceneMusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/Robot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Area/CollisionArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Area/TriggerArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/CollisionReactionRobot7.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotsCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawn.cs" root0="FORCE_HIGHLIGHTING" />
@@ -97,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotsCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScaneMusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSceneMusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/CollisionReactionRobot7.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Robot/Robot.cs" />
       </list>
     </option>
   </component>
@@ -136,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633245496271</updated>
       <workItem from="1633245533441" duration="38171000" />
-      <workItem from="1633318073571" duration="29020000" />
+      <workItem from="1633318073571" duration="31141000" />
     </task>
     <servers />
   </component>
