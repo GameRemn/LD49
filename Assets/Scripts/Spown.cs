@@ -33,11 +33,11 @@ public class Spown : MonoBehaviour
 
             Debug.Log("GetMouseButtonDown0");
         }
-        if (Input.GetMouseButtonDown(1))////////////////////////////test
-        {
-            movepast.GetComponent<MoveRobScr>().Move(MsPos);
-            Debug.Log("GetMouseButtonDown1");
-        }
+        //if (Input.GetMouseButtonDown(1))////////////////////////////test
+        //{
+        //    movepast.GetComponent<MoveRobScr>().Move(MsPos);
+        //    Debug.Log("GetMouseButtonDown1");
+        //}
     }
     
 
