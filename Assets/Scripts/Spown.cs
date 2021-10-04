@@ -1,11 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 public class Spown : MonoBehaviour
 {
-    public List<RobotSpownS> robot;
+    public List<RobotInfo> robot;
     int nomer;
-    GameObject movepast;////////////////////////////test
     void Start()
     {
         CreatRobIm();
@@ -13,38 +15,23 @@ public class Spown : MonoBehaviour
     void CreatRobIm()
     {
         nomer = Random.Range(0, robot.Count);
-        MouseScr.mouseScr.SpriteV(robot[nomer].robotSprite);
-        Debug.Log($"nomer: {nomer}");
     }
-    void Update()
+
+    public void SpownRobot()
     {
-
-
-        RaycastHit ray;
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out ray))
-            {
-                Vector3 MsPos = ray.point;
-            CreatRobot(MsPos);
-            CreatRobIm();
-            }
-
-            Debug.Log("GetMouseButtonDown0");
-        }
-        //if (Input.GetMouseButtonDown(1))////////////////////////////test
-        //{
-        //    movepast.GetComponent<MoveRobScr>().Move(MsPos);
-        //    Debug.Log("GetMouseButtonDown1");
-        //}
+        Vector3 MsPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        MsPos.z = 0;
+        CreatRobot(MsPos);
+        CreatRobIm();
     }
-    
+
+    public void Update()
+    {
+        throw new NotImplementedException();
+    }
 
     void CreatRobot(Vector3 startPos)
     {
-        movepast=Instantiate(robot[nomer].robotObj, startPos, Quaternion.identity);
+        
     }
-
-
 }
