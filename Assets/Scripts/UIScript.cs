@@ -17,18 +17,18 @@ public class UIScript : MonoBehaviour
     //}
     public void MenuRandomAud(AudioSource batAud)
     {
-        batAud.pitch=Random.Range(0.9f, 1.1f);//настроиииииить
+        batAud.pitch=Random.Range(0.9f, 1.1f);
         batAud.Play();
     }
     public void MusicStart(AudioSource batAud)
     {
         batAud.Play();
     }
-    public void Pause()
+    public void Pause()//
     {
         Time.timeScale = 0;
     }
-    public void Resume()
+    public void Resume()//
     {
         Time.timeScale = 1;
     }
