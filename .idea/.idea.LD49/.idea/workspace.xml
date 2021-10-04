@@ -22,11 +22,7 @@
     <list default="true" id="6f7ad3dc-467e-4d5d-a9d9-0ecdb5386369" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/portal.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/portal.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background/environment7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Background/environment7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveRobScr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSceneMusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Area/CollisionArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Area/TriggerArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotsCounter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -98,6 +95,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot/RobotInfoCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotsCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScaneMusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSceneMusicManager.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633245496271</updated>
       <workItem from="1633245533441" duration="38171000" />
-      <workItem from="1633318073571" duration="25631000" />
+      <workItem from="1633318073571" duration="29020000" />
     </task>
     <servers />
   </component>
