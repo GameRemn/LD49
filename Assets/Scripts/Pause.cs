@@ -10,13 +10,23 @@ public class Pause : MonoBehaviour
     {
         if (pause)
         {
-            Time.timeScale = 1;
-            pause = false;
+            PauseOff();
         }
         else
         {
-            Time.timeScale = 0;
-            pause = true;
+            PauseOn();
         }
-    } 
+    }
+
+    public void PauseOn()
+    {
+        Time.timeScale = 0;
+        pause = true;
+    }
+
+    public void PauseOff()
+    {
+        Time.timeScale = 1;
+        pause = false;
+    }
 }

@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7ad3dc-467e-4d5d-a9d9-0ecdb5386369" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LD49/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/explosion2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/explosion2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 8 A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RobotsA/Робот 8 A.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VladScane.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +103,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSceneMusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot/Behaviour/CollisionReactionRobot7.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot/Robot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroySelf.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633245496271</updated>
       <workItem from="1633245533441" duration="38171000" />
-      <workItem from="1633318073571" duration="32961000" />
+      <workItem from="1633318073571" duration="33646000" />
     </task>
     <servers />
   </component>
