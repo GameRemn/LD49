@@ -31,30 +31,63 @@
             <e p="CollisionArea.cs" t="Include" />
             <e p="TriggerArea.cs" t="Include" />
           </e>
-          <e p="Behaviour" t="Include">
-            <e p="CollisionReactionRobot1.cs" t="Include" />
-            <e p="CollisionReactionRobot3.cs" t="Include" />
-            <e p="CollisionReactionRobot4.cs" t="Include" />
-            <e p="CollisionReactionRobot5.cs" t="Include" />
-            <e p="CollisionReactionRobot6.cs" t="Include" />
-            <e p="CollisionReactionRobot7.cs" t="Include" />
-            <e p="CollisionReactionRobot8.cs" t="Include" />
-            <e p="Timer.cs" t="Include" />
-            <e p="VisibilityReaction.cs" t="Include" />
-            <e p="VisibilityReactionRobot1.cs" t="Include" />
-            <e p="VisibilityReactionRobot2.cs" t="Include" />
-            <e p="VisibilityReactionRobot3.cs" t="Include" />
-            <e p="VisibilityReactionRobot4.cs" t="Include" />
-            <e p="VisibilityReactionRobot5.cs" t="Include" />
-            <e p="VisibilityReactionRobot6.cs" t="Include" />
-            <e p="VisibilityReactionRobot7.cs" t="Include" />
-          </e>
           <e p="DebugLog.cs" t="Include" />
-          <e p="MouseScr.cs" t="Include" />
+          <e p="MouseLook.cs" t="Include" />
           <e p="MoveRobScr.cs" t="Include" />
-          <e p="Robot.cs" t="Include" />
-          <e p="RobotSpownS.cs" t="Include" />
+          <e p="ObjectSpawn.cs" t="Include" />
+          <e p="Patterns" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
+          <e p="Raycast" t="Include">
+            <e p="CheckRayTag.cs" t="Include" />
+            <e p="MouseRaycast3D.cs" t="Include" />
+          </e>
+          <e p="Robot" t="Include">
+            <e p="Behaviour" t="Include">
+              <e p="CollisionReactionRobot1.cs" t="Include" />
+              <e p="CollisionReactionRobot3.cs" t="Include" />
+              <e p="CollisionReactionRobot4.cs" t="Include" />
+              <e p="CollisionReactionRobot5.cs" t="Include" />
+              <e p="CollisionReactionRobot6.cs" t="Include" />
+              <e p="CollisionReactionRobot7.cs" t="Include" />
+              <e p="CollisionReactionRobot8.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
+              <e p="VisibilityReaction.cs" t="Include" />
+              <e p="VisibilityReactionRobot1.cs" t="Include" />
+              <e p="VisibilityReactionRobot2.cs" t="Include" />
+              <e p="VisibilityReactionRobot3.cs" t="Include" />
+              <e p="VisibilityReactionRobot4.cs" t="Include" />
+              <e p="VisibilityReactionRobot5.cs" t="Include" />
+              <e p="VisibilityReactionRobot6.cs" t="Include" />
+              <e p="VisibilityReactionRobot7.cs" t="Include" />
+            </e>
+            <e p="Robot.cs" t="Include" />
+            <e p="RobotInfo.cs" t="Include" />
+            <e p="RobotInfoCreater.cs" t="Include" />
+            <e p="RobotInfoCreator.cs" t="Include" />
+            <e p="RobotInfoList.cs" t="Include" />
+          </e>
+          <e p="SceneLoader.cs" t="Include" />
+          <e p="SliderScript.cs" t="Include" />
           <e p="Spown.cs" t="Include" />
+          <e p="TextUpdater" t="Include">
+            <e p="ITextUpdater.cs" t="Include" />
+            <e p="TextMeshProUpdater.cs" t="Include" />
+            <e p="TextMeshUpdater.cs" t="Include" />
+            <e p="TextUpdaterBase.cs" t="Include" />
+            <e p="UITextMeshProUpdater.cs" t="Include" />
+            <e p="UITextUpdater.cs" t="Include" />
+          </e>
+          <e p="TransformMod.cs" t="Include" />
+          <e p="UIScript.cs" t="Include" />
+          <e p="ValueEvent" t="Include">
+            <e p="EventTrigger" t="Include">
+              <e p="BoolEventTrigger.cs" t="Include" />
+              <e p="EventTriggerBase.cs" t="Include" />
+              <e p="IntEventTrigger.cs" t="Include" />
+            </e>
+            <e p="ValueEvent.cs" t="Include" />
+          </e>
         </e>
         <e p="SO Architecture" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
