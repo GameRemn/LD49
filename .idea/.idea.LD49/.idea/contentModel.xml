@@ -34,6 +34,7 @@
           <e p="DebugLog.cs" t="Include" />
           <e p="DestroySelf.cs" t="Include" />
           <e p="GameSceneMusicManager.cs" t="Include" />
+          <e p="ManualScr.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="MoveRobScr.cs" t="Include" />
           <e p="ObjectSpawn.cs" t="Include" />
@@ -1966,6 +1967,20 @@
               <e p="Unity.Mathematics.Editor.asmdef" t="Include" />
             </e>
           </e>
+          <e p="com.unity.sysroot.linux-x86_64@0.1.14-preview" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Unity.Sysroot.cs" t="Include" />
+              <e p="Unity.Sysroot.Linux-x86_64.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="com.unity.sysroot@0.1.19-preview" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+              <e p="NiceIO.cs" t="Include" />
+              <e p="Unity.SysrootPackage.cs" t="Include" />
+              <e p="Unity.SysrootPackage.Editor.asmdef" t="Include" />
+            </e>
+          </e>
           <e p="com.unity.test-framework@1.1.29" t="Include">
             <e p="UnityEditor.TestRunner" t="Include">
               <e p="Api" t="Include">
@@ -2876,6 +2891,12 @@
               </e>
             </e>
           </e>
+          <e p="com.unity.toolchain.win-x86_64-linux-x86_64@0.1.21-preview" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Unity.Toolchain.cs" t="Include" />
+              <e p="Unity.Toolchain.Win-x86_64-Linux-x86_64.asmdef" t="Include" />
+            </e>
+          </e>
           <e p="com.unity.ugui@1.0.0" t="Include">
             <e p="Editor" t="Include">
               <e p="EventSystem" t="Include">
@@ -3081,12 +3102,15 @@
       <e p="Unity.Mathematics.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.PlasticSCM.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Rider.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Sysroot.Linux_x86_64.csproj" t="IncludeRecursive" />
+      <e p="Unity.SysrootPackage.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.Toolchain.Win-x86_64-Linux-x86_64.csproj" t="IncludeRecursive" />
       <e p="Unity.VisualStudio.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.VSCode.Editor.csproj" t="IncludeRecursive" />
       <e p="UnityEditor.TestRunner.csproj" t="IncludeRecursive" />
