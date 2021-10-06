@@ -10,12 +10,10 @@ public class SliderScript : MonoBehaviour
 
     public void MusSetg(float valuePlay)
     {
-        valueMus.audioMixer.SetFloat("Mus", Mathf.Lerp(-80, 0, valuePlay));
-        Debug.Log($"Music:   {Mathf.Lerp(-80, 0, valuePlay)}");
+        valueMus.audioMixer.SetFloat("Mus", Mathf.Lerp(-50, 0, valuePlay));
     }
     public void EffectSetg(float valuePlay)
     {
-        valueEff.audioMixer.SetFloat("Eff", Mathf.Lerp(-80, 0, valuePlay));
-        Debug.Log($"Value:   {valuePlay}    Effect:   {Mathf.Lerp(-80, 0, valuePlay)}");
+        valueEff.audioMixer.SetFloat("Eff", Mathf.Lerp(-50, 0, valuePlay));
     }
 }
