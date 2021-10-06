@@ -32,8 +32,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432376056942419140}
   m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -43.91, y: -5.01, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 9, y: 9, z: 1}
   m_Children:
   - {fileID: 432376058243748744}
   - {fileID: 5975120609673869670}
@@ -59,6 +59,7 @@ MonoBehaviour:
       m_Calls: []
   _fraction: 2
   _behaviourType: 0
+  destroyEffectSpawn: {fileID: 0}
 --- !u!58 &432376056942419138
 CircleCollider2D:
   m_ObjectHideFlags: 0

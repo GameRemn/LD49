@@ -16,8 +16,7 @@ public class CollisionReactionRobot5 : MonoBehaviour
             var goalRobot = goal.GetComponent<Robot>();
             if (goalRobot && !visibilityReactionRobot5.wait)
             {
-                goal.SetActive(false);
-                Destroy(goal);
+                goalRobot.Death();
                 visibilityReactionRobot5.wait = true;
                 timer.StartTimer();
             }

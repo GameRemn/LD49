@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 47355485509622826}
   - component: {fileID: 47355485509622827}
   - component: {fileID: 47355485509622836}
+  - component: {fileID: 8007871997927443812}
   m_Layer: 0
   m_Name: "\u0420\u043E\u0431\u043E\u0442 7 A"
   m_TagString: Untagged
@@ -59,6 +60,7 @@ MonoBehaviour:
       m_Calls: []
   _fraction: 2
   _behaviourType: 1
+  destroyEffectSpawn: {fileID: 8007871997927443812}
 --- !u!58 &47355485509622830
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -203,6 +205,19 @@ MonoBehaviour:
         m_CallState: 2
   onStart: 0
   loop: 0
+--- !u!114 &8007871997927443812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47355485509622837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be69064d2a6c01a41a2c5db77969c933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObj: {fileID: 4876301873974897521, guid: 1d0bf34507cbf4a03883dc283f8537f7, type: 3}
 --- !u!1 &47355486043968223
 GameObject:
   m_ObjectHideFlags: 0

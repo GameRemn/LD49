@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using ScriptableObjectArchitecture;
 using UnityEngine;
 using UnityEngine.Events;
@@ -26,6 +27,8 @@ public class Robot : MonoBehaviour
 
     [SerializeField]private BehaviourType _behaviourType;
 
+    public ObjectSpawn destroyEffectSpawn;
+
     public void OnEnable()
     {
         RobotsCounter.Instance.AddRobotCount(1);
@@ -50,8 +53,10 @@ public class Robot : MonoBehaviour
         onDisableEvent?.Raise();
     }
 
-    public void Anigilation()
+    public void Death()
     {
+        if(destroyEffectSpawn)
+            destroyEffectSpawn.Spawn();
         gameObject.SetActive(false);
         Destroy(gameObject);
     }
