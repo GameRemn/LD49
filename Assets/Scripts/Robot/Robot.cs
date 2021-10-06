@@ -22,7 +22,6 @@ public class Robot : MonoBehaviour
     public BehaviourType BehaviourType
     {
         get => _behaviourType;
-        set => _behaviourType = value;
     }
 
     [SerializeField]private BehaviourType _behaviourType;

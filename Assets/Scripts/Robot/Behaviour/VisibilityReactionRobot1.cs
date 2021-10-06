@@ -11,7 +11,7 @@ public class VisibilityReactionRobot1 : VisibilityReaction
         var _goalRobot = _goal.GetComponent<Robot>();
         if (_goalRobot)
         {
-            if (_goalRobot.Fraction != robot.Fraction)
+            if (_goalRobot.Fraction != robot.Fraction && _goalRobot.BehaviourType == BehaviourType.Aggressive)
             {
                 goals.Add(_goal);
             }
