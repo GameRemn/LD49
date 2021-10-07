@@ -869,7 +869,7 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: fabbff07ca971cc46946e0a1196b7c69, type: 2}
-  minWinValue: 10
+  minWinValue: 15
   winEvent:
     m_PersistentCalls:
       m_Calls:
