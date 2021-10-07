@@ -663,8 +663,8 @@ RectTransform:
   m_Father: {fileID: 1933331931}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 75, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1547,10 +1547,10 @@ RectTransform:
   m_Father: {fileID: 662299601}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -365}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265325282
 MonoBehaviour:
@@ -2088,8 +2088,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "7.\nFaction - Non-Factional\nStatus - Non - Aggressive\nVisibility range
-    -      \nSpeed -\n\nWeird. Changes the faction of the neighboring robot.\n"
+  m_Text: '7.
+
+    Faction - Non-Factional
+
+    Status - Non-Aggressive
+
+    Visibility
+    range - 2
+
+    Speed - 8
+
+
+    Weird. Changes the faction of the neighboring
+    robot.
+
+'
 --- !u!222 &390161453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2116,7 +2130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &401891742
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2340,8 +2354,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "5.\nFaction - Non-Factional\nStatus - Aggressive\nVisibility range -     
-    \nSpeed -\n\nManiac. ATTACKING EVERYONE.\n\n"
+  m_Text: '5.
+
+    Faction - Non-Factional
+
+    Status - Aggressive
+
+    Visibility
+    range - 4
+
+    Speed - 14
+
+
+    Maniac. ATTACKING EVERYONE.
+
+
+'
 --- !u!222 &432473925
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2696,8 +2724,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "6.\nFaction - Non-Factional\nStatus - Non - Aggressive\nVisibility range
-    -      \nSpeed -\n\nHelicopter Boss. Abducts a neighboring robot.\n\n"
+  m_Text: '6.
+
+    Faction - Non-Factional
+
+    Status - Non-Aggressive
+
+    Visibility
+    range - 2
+
+    Speed - 10
+
+
+    Helicopter Boss. Abducts a neighboring robot.
+
+
+'
 --- !u!222 &446329470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3515,10 +3557,10 @@ RectTransform:
   m_Father: {fileID: 662299601}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 33.847588, y: -210.00002}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.11282529, y: 0.9999999}
 --- !u!114 &547910453
 MonoBehaviour:
@@ -4201,8 +4243,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1.\nFaction - Factional\nStatus - Aggressive \nVisibility range -     
-    \nSpeed -\n\nWarrior. Attacks all robots of the opposite faction and non-factional.\n"
+  m_Text: "1.\nFaction - Factional\nStatus - Aggressive \nVisibility range - 2\nSpeed
+    - 10\n\nWarrior. Attacks only aggressive robots of the opposite faction.\n"
 --- !u!222 &639591030
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4593,8 +4635,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "3.\nFaction - Factional\nStatus - Non-Aggressive\nVisibility range -     
-    \nSpeed -\n\nAssassin. Kills only non-aggressive robots of the opposite faction\n"
+  m_Text: '3.
+
+    Faction - Factional
+
+    Status - Aggressive
+
+    Visibility range
+    - 2
+
+    Speed - 10
+
+
+    Assassin. Kills only non-aggressive robots of the opposite
+    faction.
+
+'
 --- !u!222 &743665323
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5056,8 +5112,8 @@ RectTransform:
   m_Father: {fileID: 534050883}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 75, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6383,10 +6439,10 @@ RectTransform:
   m_Father: {fileID: 662299601}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -575}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258823112
 MonoBehaviour:
@@ -6910,8 +6966,21 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "4.\nFaction - Factional\nStatus - Non-Aggressive\nVisibility range -     
-    \nSpeed -\n\nPrinter. Duplicates the robots of his faction.\n"
+  m_Text: '4.
+
+    Faction - Factional
+
+    Status - Non-Aggressive
+
+    Visibility
+    range - 3
+
+    Speed - 14
+
+
+    Printer. Duplicates the robots of his faction.
+
+'
 --- !u!222 &1383379045
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7959,9 +8028,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "2.\nFaction - Factional\nStatus - Non-Aggressive\nVisibility range -     
-    \nSpeed -\n\nChiken. Runs away from all who are aggressive from the opposite
-    faction.\n\n"
+  m_Text: '2.
+
+    Faction - Factional
+
+    Status - Non-Aggressive
+
+    Visibility
+    range - 1
+
+    Speed - 20
+
+
+    Chiken. Runs away from all who are aggressive
+    from the opposite faction.
+
+
+'
 --- !u!222 &1616520425
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8005,10 +8088,10 @@ RectTransform:
   m_Father: {fileID: 662299601}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -50}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644519038
 MonoBehaviour:
@@ -8314,10 +8397,10 @@ RectTransform:
   m_Father: {fileID: 662299601}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -470}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1697659320
 MonoBehaviour:
@@ -8374,7 +8457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1725863180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8522,8 +8605,21 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "8.\nFaction - Non-Factional\nStatus - Aggressive\nVisibility range -     
-    \nSpeed -\n\nBomb. Just BLOW UP.\n"
+  m_Text: '8.
+
+    Faction - Non-Factional
+
+    Status - Aggressive
+
+    Visibility
+    range - 2
+
+    Speed - 12
+
+
+    Bomb. Just BLOW UP.
+
+'
 --- !u!222 &1732528149
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8642,10 +8738,10 @@ RectTransform:
   m_Father: {fileID: 662299601}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -155}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825939010
 MonoBehaviour:
@@ -8933,7 +9029,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9650,7 +9746,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
